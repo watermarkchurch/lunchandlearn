@@ -48,3 +48,5 @@ removed extra spaces.
 ## Example
 
 ![tsc example](tsc.gif)
+
+[Go to the next step -->](../02_library_types)
