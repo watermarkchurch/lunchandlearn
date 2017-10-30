@@ -10,9 +10,10 @@ defined elsewhere.
 
 ## Compiling Typescript
 
-You'll need the Typescript compiler, which you can install using node: 
+You'll need the Typescript compiler, which you can install using node.
+Ensure you get at least version 2.0 
 ```
-npm install -g tsc
+npm install -g typescript
 ```
 
 Then you run it on the typescript file to produce a javascript file:
