@@ -2,7 +2,7 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 import * as $ from 'jquery'
 
-import { fibonacci } from './fibonacci'
+import { Fibonacci } from './fibonacci'
 import { ResultList } from './ResultList'
 
 
@@ -14,8 +14,11 @@ $('#fibonacciin input').on('change', function(evt) {
   $('#spinner').show();
   updateResults([])
 
-  fibonacci($(this).val() as number)
-    .then((results) => {
+  const f = new Fibonacci()
+
+  console.log('running')
+  f.run($(this).val() as number)
+    .on('end', (results) => {
       $('#spinner').hide();
 
       updateResults(results)
