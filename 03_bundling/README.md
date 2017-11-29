@@ -225,3 +225,5 @@ compiles any typescript files before passing them to mocha.  Here's the full com
 ```
 mocha --require ts-node/register src/**/*.test.ts
 ```
+
+[Go to the next step -->](../04_fun_stuff)

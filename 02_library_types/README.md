@@ -70,3 +70,6 @@ It's such a boon that in the past, when there hasn't been an available definitio
 file for a library I needed, I wrote it myself.  I invested some time to read once through
 the documentation, and code up my understanding as a definitions file which I refer to
 through IntelliSense.
+
+
+[Go to the next step -->](../03_bundling)
