@@ -76,6 +76,7 @@ $ tree
       - `restore_local`
       - `restore_staging`
       - `seed_nucleus_staging` (used by restore_all_staging)
+  - Run through pipeline set up!
 
 
 [1]: https://github.com/watermarkchurch/deployment
