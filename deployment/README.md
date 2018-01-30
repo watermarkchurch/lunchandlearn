@@ -42,9 +42,6 @@ $ tree
 │   ├── theporch.yml.enc
 │   └── wmorg.yml.enc
 ├── certs
-│   ├── WildCardCert.crt
-│   ├── WildCardCert.key
-│   ├── WildCardCertDecrypted.key
 │   ├── wildcard.watermark.org.crt.enc
 │   └── wildcard.watermark.org.key.enc
 └── errors
